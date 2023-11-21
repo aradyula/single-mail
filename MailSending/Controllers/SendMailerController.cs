@@ -12,6 +12,10 @@ namespace MailSending.Controllers
 {
     public class SendMailerController : Controller
     {
+        public ActionResult Index() {
+            return View();
+
+        }
        
         public ActionResult SendMail()
         {
